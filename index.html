@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular Plan 122-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📚 Malla Curricular - Plan 122-3</h1>
+        <div class="controls">
+            <button id="toggle-view">Vista Semestral</button>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Buscar curso...">
+            </div>
+            <div class="legend">
+                <div class="legend-item"><span class="color-basic"></span> Básica</div>
+                <div class="legend-item"><span class="color-technical"></span> Técnica</div>
+                <div class="legend-item"><span class="color-management"></span> Gestión</div>
+                <div class="legend-item"><span class="color-practice"></span> Práctica</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="semester-view" class="view active">
+            <!-- Generado dinámicamente por JavaScript -->
+        </div>
+        
+        <div id="list-view" class="view">
+            <!-- Generado dinámicamente por JavaScript -->
+        </div>
+    </main>
+
+    <div id="course-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <div class="modal-body">
+                <p><strong>Código:</strong> <span id="modal-code"></span></p>
+                <p><strong>Semestre:</strong> <span id="modal-semester"></span></p>
+                <p><strong>Créditos:</strong> <span id="modal-credits"></span></p>
+                <p><strong>Requisitos:</strong> <span id="modal-prerequisites"></span></p>
+                <p><strong>Descripción:</strong> <span id="modal-description"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desarrollado por [Tu Nombre] - Plan 122-3</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
